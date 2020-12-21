@@ -19,7 +19,7 @@ Running this project on your local system requires the following packages to be 
  
      pip install numpy
      pip install matplotlib
-     pip install Pillow
+     pip install pickle
      pip install mtcnn
      pip install opencv-python
      pip install Keras
@@ -27,13 +27,16 @@ Running this project on your local system requires the following packages to be 
      
  You can also use [Google Colab](https://colab.research.google.com/) in a Web Browser without needing to install the mentioned packages.
  
+ ### Setup
+    Run the Siamese-NN-using-TripletLoss.ipynb
+  
 ### Usage
 This project is implemented as an interactive Jupyter Notebook. You just need to open the notebook on your local system or on [Google Colab](https://colab.research.google.com/) and execute the code cells in sequential order. The function of each code cell is properly explained with the help of comments.</br>
 
 ## Tools Used
 * [NumPy](https://numpy.org/) : Used for storing and manipulating high dimensional arrays.
 * [Matplotlib](https://matplotlib.org/) : Used for plotting.
-* [PIL](https://pillow.readthedocs.io/en/stable/) : Used for loading image files.
+* [Pickle](https://docs.python.org/3/library/pickle.html) : Used for loading image files.
 * [MTCNN](https://pillow.readthedocs.io/en/stable/) : Used for detecting and cropping faces.
 * [OpenCV](https://opencv.org/) : Used for loading Haar Cascades and manipulating video streams.
 * [Keras](https://keras.io/) : Used for designing and training the Embedding model.

@@ -29,17 +29,6 @@ Running this project on your local system requires the following packages to be 
  
 ### Usage
 This project is implemented as an interactive Jupyter Notebook. You just need to open the notebook on your local system or on [Google Colab](https://colab.research.google.com/) and execute the code cells in sequential order. The function of each code cell is properly explained with the help of comments.</br>
-</br> Before executing [Face_Recognition](Face_Recognition.ipynb) :
-1. Create a folder named `Face_database` in the root directory.
-2. Place images of known persons whom you want to recognize in this folder.</br>
-
-Also before starting you need to make sure that the path to various files and folders in the notebook are updated according to your working environment. If you are using [Google Colab](https://colab.research.google.com/), then :
-1. Mount Google Drive using : 
-
-        from google.colab import drive
-        drive.mount('/content/drive')
-        
-2. Update file/folder locations as `'/content/drive/path_to_file_or_folder'`.
 
 ## Tools Used
 * [NumPy](https://numpy.org/) : Used for storing and manipulating high dimensional arrays.
